@@ -21,10 +21,10 @@ static const int smartgaps =
     0; /* 1 means no outer gap when there is only one window */
 static const int showbar = 1; /* 0 means no bar */
 static const int topbar = 1;  /* 0 means bottom bar */
-static const char *fonts[] = {"JetBrains Mono:size=14",
-                              "JoyPixels:size=14:antialias=true:autohint=true",
-                              "fontawesome:size=14"};
-static const char dmenufont[] = "JetBrains Mono:size=14";
+static const char *fonts[] = {"JetBrains Mono:size=12",
+                              "JoyPixels:size=12:antialias=true:autohint=true",
+                              "fontawesome:size=12"};
+static const char dmenufont[] = "JetBrains Mono:size=12";
 static const char col_gray1[] = "#353535"; // Background 282828
 static const char col_gray2[] = "#d9d9d9"; // Unfocused window
 static const char col_gray3[] = "#d9d9d9"; // Icon a89984
