@@ -21,10 +21,10 @@ static const int smartgaps =
     0; /* 1 means no outer gap when there is only one window */
 static const int showbar = 1; /* 0 means no bar */
 static const int topbar = 1;  /* 0 means bottom bar */
-static const char *fonts[] = {"JetBrains Mono:size=10",
-                              "JoyPixels:size=10:antialias=true:autohint=true",
-                              "fontawesome:size=10"};
-static const char dmenufont[] = "JetBrains Mono:size=10";
+static const char *fonts[] = {"JetBrains Mono:size=14",
+                              "JoyPixels:size=14:antialias=true:autohint=true",
+                              "fontawesome:size=14"};
+static const char dmenufont[] = "JetBrains Mono:size=14";
 static const char col_gray1[] = "#353535"; // Background 282828
 static const char col_gray2[] = "#d9d9d9"; // Unfocused window
 static const char col_gray3[] = "#d9d9d9"; // Icon a89984
@@ -45,7 +45,7 @@ static const Rule rules[] = {
      *	WM_NAME(STRING) = title
      */
     /* class      instance    title       tags mask     isfloating   monitor */
-    {"Chromium", "chromium", "Chromium", 1 << 1, 0, -1},
+    {"Google-chrome", "google-chrome", "Chrome", 1 << 1, 0, -1},
     {"Telegram", NULL, NULL, 1 << 2, 0, -1},
     {"discord", NULL, NULL, 1 << 2, 0, -1},
     {"Spotify", "spotify", "Spotify Premium", 1 << 4, 0, -1},
@@ -90,7 +90,7 @@ static const char *dmenucmd[] = {
     "dmenu_run", "-m",      dmenumon, "-fn",    dmenufont, "-nb",     col_gray1,
     "-nf",       col_gray3, "-sb",    col_cyan, "-sf",     col_gray4, NULL};
 static const char *termcmd[] = {"st", NULL};
-static const char *web[] = {"chromium", NULL};
+static const char *web[] = {"google-chrome-stable", NULL};
 static const char *filemgr[] = {"st", "ranger", NULL};
 static const char *tel[] = {"telegram-desktop", NULL};
 // static const char *scrnshot[] = {
